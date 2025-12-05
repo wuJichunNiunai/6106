@@ -1,2 +1,2 @@
-gunicore
+gunicorn
 flask
