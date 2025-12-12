@@ -7,7 +7,7 @@
 1. 打开 Remix: https://remix.ethereum.org
 2. 上传 `smart_contract/deposit_money.sol` 和 `smart_contract/w1_paynow.sol`
 3. 左侧选择 `Solidity Compiler`，选择合适版本后点击 `Compile`。
-4. 切换到 `Deploy & Run Transactions`，在 `Environment` 选择 `WalletConnect` 或 `Remix VM`。
+4. 切换到 `Deploy & Run Transactions`，在 `Environment` 选择 `WalletConnect` 。
 5. 选择编译出的合约，点击 `Deploy`。
 6. 部署完成后在同面板找到已部署合约实例，展开即可调用合约方法；将 Remix 部署结果中的合约地址和编译输出的 ABI 复制到 `templates/deposit.html` 和 `templates/paynow.html` 的 `contractAddress`、`contractABI`。
 
